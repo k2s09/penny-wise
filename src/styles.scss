@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "node_modules/bootstrap/dist/css/bootstrap.css";
+
+// Define variables for font URLs
+$inter-font-preconnect-url: "https://rsms.me/";
+$inter-font-stylesheet-url: "https://rsms.me/inter/inter.css";
+
+// Import the font
+@import url('#{$inter-font-preconnect-url}') preconnect;
+@import url('#{$inter-font-stylesheet-url}');
+
+// Define font usage
+html, body { height: 100%; }
+body { margin: 0; font-family: Inter, Roboto, "Helvetica Neue", sans-serif; }
